@@ -32,6 +32,8 @@ public class BasicController {
 		return "Product id is " + product.getId() + " and product price is " + product.getName(); //second commit //its just a 3rd commit...	
 	}
 	
+	//remove comments till 7th change
+	
 	@GetMapping("/response")
 	public ResponseEntity<Product> getResponse(){
 		Product product = new Product();
