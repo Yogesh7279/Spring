@@ -29,7 +29,7 @@ public class BasicController {
 	
 	@PostMapping("/add")
 	public String addProduct(@RequestBody Product product) {
-		return "Product id is " + product.getId() + " and product price is " + product.getName();	
+		return "Product id is " + product.getId() + " and product price is " + product.getName(); //second commit	
 	}
 	
 	@GetMapping("/response")
